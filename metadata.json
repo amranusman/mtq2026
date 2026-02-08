@@ -1,0 +1,14 @@
+{
+  "name": "e-MTQ Sulawesi Selatan",
+  "description": "Sistem Informasi Terpadu Pendaftaran dan Penilaian MTQ/STQ Provinsi Sulawesi Selatan dengan fitur Bank Data NIK, Verifikasi Berjenjang, dan Presensi Face ID.",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "implementation_guide": {
+    "step_1": "Install Laragon Full 6.0 dan pastikan PHP 8.1 aktif.",
+    "step_2": "Buka VS Code, install extension 'Laravel Extension Pack'.",
+    "step_3": "Buat database 'db_emtq_sulsel' di MySQL (buka di menu Database Laragon).",
+    "step_4": "Gunakan framework Laravel 10/11 untuk backend demi stabilitas tinggi.",
+    "step_5": "Integrasikan frontend React ini ke dalam folder 'resources/js' Laravel atau gunakan sebagai SPA mandiri."
+  }
+}
